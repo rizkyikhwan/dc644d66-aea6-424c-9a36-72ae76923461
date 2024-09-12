@@ -16,3 +16,7 @@
 5. Type "yarn dev" for running the project
 
 Node Version 18.18.1
+
+### Route Swagger
+
+`http://localhost:3001/api`
