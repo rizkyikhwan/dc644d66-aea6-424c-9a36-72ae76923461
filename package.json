@@ -1,0 +1,16 @@
+{
+  "name": "ambisius-lab",
+  "version": "1.0.0",
+  "description": "Challenge Ambisius-Lab Recruitment",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run-fe": "cd ./ambisius-lab-fe && yarn dev",
+    "run-be": "cd ./ambisius-lab-be && yarn start:dev",
+    "install-modules": "concurrently \"cd ./ambisius-lab-fe && yarn install\" \"cd ./ambisius-lab-be && yarn install\"",
+    "dev": "concurrently \"yarn run-fe\" \"yarn run-be\""
+  },
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
